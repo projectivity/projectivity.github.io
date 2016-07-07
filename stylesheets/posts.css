@@ -1,3 +1,14 @@
+article.post
+{
+	clear: both;
+}
+
+.thumbContainer
+{
+	float:left;
+	padding: 0 2%;
+}
+
 .read-more.none
 {
 	display: none;
