@@ -7,7 +7,12 @@ article.post
 {
 	float:left;
 	padding: 0 2%;
-}
+	width: 40%;
+}	
+	.thumb
+	{
+		width: 100%;
+	}
 
 .read-more.none
 {
