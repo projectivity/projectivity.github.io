@@ -38,14 +38,16 @@ published: true
     				<article class="post">
 						<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 							<div class="entry">
-								<div class="thumbContainer">
-									{% if post.youtube %}
-										<iframe class="youtube thumb" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
-									{% endif %}
-									{% if post.img %}
-										<img class="image thumb" src="{{ post.img }}" alt="{{ post.title }}">
-									{% endif %}
-								</div>
+								{% if post.youtube or post.img %}
+									<div class="thumbContainer">
+										{% if post.youtube %}
+											<iframe class="youtube thumb" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
+										{% endif %}
+										{% if post.img %}
+											<img class="image thumb" src="{{ post.img }}" alt="{{ post.title }}">
+										{% endif %}
+									</div>
+								{% endif %}
         							{{ post.excerpt }}
       							</div>
       						<a href="{{ site.baseurl }}{{ post.url }}" class="read-more {{ post.readmore }}">Read More</a>
