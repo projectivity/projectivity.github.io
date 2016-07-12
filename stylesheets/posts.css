@@ -14,6 +14,12 @@ article.post
 		width: 100%;
 	}
 
+.entry p
+{
+	width: 56%; /* 100% - (thumbnail 40% + 2% padding on each side) */
+	float: right;
+}
+
 .read-more.none
 {
 	display: none;
