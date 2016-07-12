@@ -52,6 +52,9 @@ published: true
       							</div>
       						<a href="{{ site.baseurl }}{{ post.url }}" class="read-more {{ post.readmore }}">Read More</a>
     				</article>
+    				{% unless forloop.last %}
+    					<div class="innerSeparator"></div>
+    				{% endunless %}
   				{% endfor %}
 			</div>
         </section>
