@@ -36,7 +36,7 @@ published: true
 			<div class="posts">
   				{% for post in site.posts %}
     				<article class="post">
-						<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+						<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><small class="dateline">{{ post.date | %b %-d, %Y }}</small></h3>
 							<div class="entry">
 								{% if post.youtube or post.img %}
 									<div class="thumbContainer">
