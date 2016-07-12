@@ -2,10 +2,6 @@ article.post
 {
 	clear: both;
 }
-	article.post:not(:last-of-type)
-	{
-		margin-bottom: 29%;
-	} /* separators */
 
 .thumbContainer
 {
