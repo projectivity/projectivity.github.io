@@ -18,3 +18,9 @@ article.post
 {
 	display: none;
 }
+
+.dateline
+{
+	padding-left: 4%;
+	/* float: right; /* uncomment this line to place dateline at right side of post */
+}
