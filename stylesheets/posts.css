@@ -37,3 +37,21 @@ article.post
 	padding-left: 4%;
 	/* float: right; /* uncomment this line to place dateline at right side of post */
 }
+
+.pagebutton
+{
+	/* background: linear-gradient(#00f,#fff); */
+	/* border: solid 1px #3333ee; */
+	border-radius: 2px;
+	margin: 0 1%;
+	padding: 1%;
+	color: #fff;
+	font-size: larger;
+
+	background: #ccc;
+}
+
+a.pagebutton
+{
+	background: #2e7bcf;
+}
