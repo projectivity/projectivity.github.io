@@ -4,22 +4,27 @@ article.post
 	display: inline-block;
 }
 
-.thumbContainer
+@media only screen and (min-width: 767px)
 {
-	float:left;
-	padding: 0 2%;
-	width: 40%;
-}	
-	.thumb
+	.thumbContainer
 	{
-		width: 100%;
-	}
+		float:left;
+		padding: 0 2%;
+		width: 40%;
+	}	
 
-.entry p
+
+	.entry p
+	{
+		width: 56%; /* 100% - (thumbnail 40% + 2% padding on each side) */
+		float: right;
+		margin: 0;
+	}
+}
+
+.thumb
 {
-	width: 56%; /* 100% - (thumbnail 40% + 2% padding on each side) */
-	float: right;
-	margin: 0;
+	width: 100%;
 }
 
 .read-more.none
