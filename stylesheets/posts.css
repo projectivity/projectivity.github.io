@@ -55,3 +55,5 @@ a.pagebutton
 {
 	background: #2e7bcf;
 }
+
+.outerSeparator { padding: 2%; } /* Temporary @todo change */
