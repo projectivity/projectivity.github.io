@@ -19,6 +19,7 @@ article.post
 {
 	width: 56%; /* 100% - (thumbnail 40% + 2% padding on each side) */
 	float: right;
+	margin: 0;
 }
 
 .read-more.none
