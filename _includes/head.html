@@ -15,13 +15,9 @@
     <![endif]-->
 
 	<title>
-	{% if page.layout == 'default' %}
-	Projectivity Blog
-		{% if paginator.previous_page %}
-			- Page {{ page }}
-		{% endif %}
-	{% elsif page.layout == 'post' %}
-		{{ post.title }}
-	{% endif%}
+	{{ page.title }}
+	{% if paginator.previous_page %}
+		- Page {{ page }}
+	{% endif %}
 	</title>
   </head>
