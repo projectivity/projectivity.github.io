@@ -4,6 +4,7 @@ article.post
 	display: inline-block;
 	background: #e8eaff;
 	margin: 30px 0;
+	width: 100%;
 }
 .post.h3
 {
