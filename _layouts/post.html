@@ -5,12 +5,14 @@
 <article class="content-wrapper post">
 	{% if page.youtube or page.img %}
 		<div class="postinner">
+			<div>
 			{% if page.youtube %}
 				<iframe class="youtube thumb" src="{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
 			{% endif %}
 			{% if page.img %}
 				<img class="image thumb" src="{{ page.img }}" alt="{{ post.title }}">
 			{% endif %}
+			</div>
 		</div>
 	{% endif %}
 	<div class="postinner clearfix">
