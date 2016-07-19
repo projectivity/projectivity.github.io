@@ -3,6 +3,16 @@
 </head>
 <body>
 <article class="content-wrapper post">
+	{% if post.youtube or post.img %}
+		<div class="postinner">
+			{% if post.youtube %}
+				<iframe class="youtube thumb" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
+			{% endif %}
+			{% if post.img %}
+				<img class="image thumb" src="{{ post.img }}" alt="{{ post.title }}">
+			{% endif %}
+		</div>
+	{% endif %}
 	<div class="postinner clearfix">
 		<section>
 			{{ content }}
