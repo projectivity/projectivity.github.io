@@ -1,5 +1,5 @@
 {% include head.html %}
-	<style>.post:before { content: "{{ page.title }}"; }</style>
+	<style>.post:before { content: "{{ page.title }} \A {{ page.date | date: "%b %-d, %Y" }}"; }</style>
 </head>
 <body>
 <article class="content-wrapper post">
