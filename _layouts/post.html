@@ -1,11 +1,13 @@
 {% include head.html %}
+	<style>.post:before { content: "{{ page.title }}"; }</style>
+</head>
 <body>
-<div class="content-wrapper">
-	<div class="inner clearfix">
-		<section id="main-content">
+<article class="content-wrapper post">
+	<div class="postinner clearfix">
+		<section>
 			{{ content }}
 		</section>
 	</div>
-</div>
+</article>
 <body>
 </html>
