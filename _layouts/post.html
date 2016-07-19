@@ -3,12 +3,12 @@
 </head>
 <body>
 <article class="content-wrapper post">
-	{% if post.youtube or post.img %}
+	{% if page.youtube or page.img %}
 		<div class="postinner">
-			{% if post.youtube %}
+			{% if page.youtube %}
 				<iframe class="youtube thumb" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
 			{% endif %}
-			{% if post.img %}
+			{% if page.img %}
 				<img class="image thumb" src="{{ post.img }}" alt="{{ post.title }}">
 			{% endif %}
 		</div>
