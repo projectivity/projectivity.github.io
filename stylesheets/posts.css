@@ -11,7 +11,7 @@ article.post
 	margin: 8px 0;
 }
 .post:before { white-space: pre; }
-.post:before:first-line
+.post:first-line
 {
 	font-size: larger;
 	font-weight: bold;
