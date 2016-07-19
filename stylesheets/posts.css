@@ -71,4 +71,8 @@ a.pagebutton
 .outerSeparator { padding: 2%; } /* Temporary @todo change */
 
 .postinner { padding-top: 18px; }
-.postinner p { margin: 0; }
+.postinner p
+{
+	margin: 0;
+	text-align: justify;
+}
