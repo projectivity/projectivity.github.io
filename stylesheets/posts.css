@@ -75,6 +75,11 @@ a.pagebutton
 
 .outerSeparator { padding: 2%; } /* Temporary @todo change */
 
+.content-wrapper
+{
+	padding: 2%;
+	box-sizing: border-box;
+}
 .postinner { padding-top: 18px; }
 .postinner p
 {
