@@ -10,6 +10,11 @@ article.post
 {
 	margin: 8px 0;
 }
+.post:before
+{
+	font-size: larger;
+	font-weight: bold;
+}
 
 @media only screen and (min-width: 767px)
 {
@@ -64,3 +69,6 @@ a.pagebutton
 }
 
 .outerSeparator { padding: 2%; } /* Temporary @todo change */
+
+.postinner { padding-top: 18px; }
+.postinner p { margin: 0; }
