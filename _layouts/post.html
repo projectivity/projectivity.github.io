@@ -6,10 +6,10 @@
 	{% if page.youtube or page.img %}
 		<div class="postinner">
 			{% if page.youtube %}
-				<iframe class="youtube thumb" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
+				<iframe class="youtube thumb" src="{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
 			{% endif %}
 			{% if page.img %}
-				<img class="image thumb" src="{{ post.img }}" alt="{{ post.title }}">
+				<img class="image thumb" src="{{ page.img }}" alt="{{ post.title }}">
 			{% endif %}
 		</div>
 	{% endif %}
