@@ -6,7 +6,7 @@ article.post
 	margin: 30px 0;
 	width: 100%;
 }
-.post.h3
+.post h3
 {
 	margin: 8px 0;
 }
@@ -23,10 +23,10 @@ article.post
 
 @media only screen and (min-width: 767px)
 {
+	.post h3, .thumbContainer { padding: 0 2%; }
 	.thumbContainer
 	{
 		float:left;
-		padding: 0 2%;
 		width: 40%;
 	}	
 
