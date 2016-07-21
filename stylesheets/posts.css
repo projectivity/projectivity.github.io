@@ -93,7 +93,7 @@ a.pagebutton
   	height: 0;
   	padding-bottom: 56.25%;	/* 16:9 ratio */
 }
-.postinner > div > iframe
+.postinner > div > iframe, .thumbContainer > div > iframe
 {
 	position: absolute;
 	width: 100%;
