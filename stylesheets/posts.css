@@ -86,7 +86,7 @@ a.pagebutton
 	margin: 0;
 	text-align: justify;
 }
-.postinner > div
+.postinner > div, .thumbContainer > div
 {
 	position: relative;
   	width: 100%;
