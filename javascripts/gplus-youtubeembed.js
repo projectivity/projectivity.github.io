@@ -43,7 +43,7 @@ function optimizeYouTubeEmbeds() {
 }
 // Replace preview image of a video with it's iframe.
 function LoadYoutubeVidOnPreviewClick(id) {
-    var code='<iframe src="https://www.youtube.com/embed/'+id+'/?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1" frameborder=0 allowfullscreen class="youtube thumb" ></iframe>';
+    var code='<div><iframe src="https://www.youtube.com/embed/'+id+'/?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1" frameborder=0 allowfullscreen class="youtube thumb" ></iframe></div>';
     var iframe = document.createElement('div');
     iframe.innerHTML=code;
     iframe=iframe.firstChild;
