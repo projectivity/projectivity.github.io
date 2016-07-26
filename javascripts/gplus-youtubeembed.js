@@ -30,7 +30,7 @@ function optimizeYouTubeEmbeds() {
             var ph=Math.ceil(h/2+38.5);    
             
             // The image+button overlay code.
-            var code='<a href="#"  onclick="LoadYoutubeVidOnPreviewClick(\''+id+'\');return false;" id="skipser-youtubevid-'+id+'" style="postition:relative"><table class="playbutton"><tbody><tr><td><img src="/images/playbutton.png"></img></td></tr></tbody></table><img class="img thumb" src="http://i.ytimg.com/vi/'+id+'/hqdefault.jpg" style="width:'+w+'px; height:'+h+'px;" /></a>';
+            var code='<a href="#"  onclick="LoadYoutubeVidOnPreviewClick(\''+id+'\');return false;" id="skipser-youtubevid-'+id+'"><table class="playbutton"><tbody><tr><td><img src="/images/playbutton.png"></img></td></tr></tbody></table><img class="img thumb" src="http://i.ytimg.com/vi/'+id+'/hqdefault.jpg" style="width:'+w+'px; height:'+h+'px;" /></a>';
 
             // Replace the iframe with a the image+button code.
             var div = document.createElement('div');

@@ -111,3 +111,4 @@ a.pagebutton
 	position: absolute;
 	margin: auto;
 }
+a[id^='skipser']{ position: relative; }
