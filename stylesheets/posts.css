@@ -106,7 +106,7 @@ a.pagebutton
 	top: 0;
 }
 
-.thumbContainer { display: flex; }
+.withvideo { display: flex; }
 .playbutton
 {
 	width: 100%;

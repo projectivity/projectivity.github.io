@@ -13,12 +13,12 @@ title: Projectivity Blog
 						<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><small class="dateline">{{ post.date | date: "%b %-d, %Y" }}</small></h3>
 							<div class="entry">
 								{% if post.youtube or post.img %}
-									<div class="thumbContainer">
+									<div class="thumbContainer
 										{% if post.youtube %}
-											<iframe class="youtube thumb" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
+											 withvideo"><iframe class="youtube thumb" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
 										{% endif %}
 										{% if post.img %}
-											<img class="image thumb" src="{{ post.img }}" alt="{{ post.title }}">
+											"><img class="image thumb" src="{{ post.img }}" alt="{{ post.title }}">
 										{% endif %}
 									</div>
 								{% endif %}
