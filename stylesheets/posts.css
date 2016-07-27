@@ -43,6 +43,10 @@ article.post
 {
 	width: 100%;
 }
+img.thumb
+{
+	height: 100%; /* fix webkit rendering, keep ratio */
+}
 
 .read-more.none
 {
