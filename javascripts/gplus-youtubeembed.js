@@ -47,7 +47,7 @@ function LoadYoutubeVidOnPreviewClick(id) {
     var iframe = document.createElement('div');
     iframe.innerHTML=code;
     iframe=iframe.firstChild;
-    var div=document.getElementById("skipser-youtubevid-"+id
+    var div=document.getElementById("skipser-youtubevid-"+id);
     div.parentNode.className="thumbContainer";
     div.parentNode.replaceChild( iframe, div)
 }
