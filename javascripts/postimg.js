@@ -5,5 +5,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	{
 		imageList[i].setAttribute( 'data-jslghtbx' );
 		imageList[i].setAttribute( 'data-jslghtbx-group', 'post' );
+		imageList[i].className += 'jslghtbx-thmb';
 	}
 });
