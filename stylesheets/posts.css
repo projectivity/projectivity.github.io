@@ -15,6 +15,10 @@ article.post
 	text-decoration: underline;
 	color: #0b131f;
 }
+.post h3 a:before
+{
+	content: "\25B6";
+}
 .post:before
 {
 	white-space: pre;
