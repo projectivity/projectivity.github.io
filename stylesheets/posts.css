@@ -10,6 +10,11 @@ article.post
 {
 	margin: 8px 0;
 }
+.post a
+{
+	text-decoration: underline;
+	color: #0b131f;
+}
 .post:before
 {
 	white-space: pre;
@@ -74,7 +79,7 @@ img.thumb
 
 a.pagebutton
 {
-	background: #2e7bcf;
+	background: #0b131f;
 }
 
 .outerSeparator { padding: 2%; } /* Temporary @todo change */
