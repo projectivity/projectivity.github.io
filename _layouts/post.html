@@ -10,7 +10,7 @@
 				<iframe class="youtube thumb" src="{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
 			{% endif %}
 			{% if page.img %}
-				<img class="image thumb" src="{{ page.img }}" alt="{{ post.title }}">
+				<img class="thumb" src="{{ page.img }}" alt="{{ post.title }}" data-jslghtbx data-jslghtbx-group="post">
 			{% endif %}
 			</div>
 		</div>
@@ -22,5 +22,6 @@
 		</section>
 	</div>
 </article>
+<script type="text/javascript" src="/javascripts/postimg.js"></script>
 <body>
 </html>
