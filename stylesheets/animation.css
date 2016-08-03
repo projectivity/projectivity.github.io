@@ -1,6 +1,9 @@
 .post {
+  margin-left: 100%;
   animation-duration: 2s;
   animation-name: slidein;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
 
 .post:nth-of-type(2){ animation-delay: 0.25s}
