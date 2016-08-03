@@ -17,7 +17,7 @@ article.post
 }
 .post h3 a:before
 {
-	content: "\25B6";
+	content: "\25BA";
 }
 .post:before
 {
