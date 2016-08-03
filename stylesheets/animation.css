@@ -3,6 +3,11 @@
   animation-name: slidein;
 }
 
+.post:nth-of-type(2){ animation-delay: 0.25s}
+.post:nth-of-type(3){ animation-delay: 0.5s }
+.post:nth-of-type(4){ animation-delay: 0.75s }
+.post:nth-of-type(n+5){ animation-delay: 1s }
+
 @keyframes slidein {
   from {
     margin-left: 100%;
