@@ -80,6 +80,10 @@ article.post
 
 	background: #ccc;
 }
+.pagebutton:first-of-type
+{
+	margin-left: 2%;
+}
 
 a.pagebutton, footer
 {
