@@ -80,7 +80,7 @@ article.post
 
 	background: #ccc;
 }
-.pagebutton:first-of-type
+.pagebutton:first-child
 {
 	margin-left: 2%;
 }
