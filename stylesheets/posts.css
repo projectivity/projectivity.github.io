@@ -81,9 +81,24 @@ article.post
 	background: #ccc;
 }
 
-a.pagebutton
+a.pagebutton, footer
 {
 	background: #0b131f;
+}
+footer
+{
+	padding: 2px;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+}
+footer a
+{
+	color: #999;
+}
+footer a:hover
+{
+	color: #bbb;
 }
 
 .outerSeparator { padding: 2%; } /* Temporary @todo change */

@@ -522,13 +522,6 @@ dl dd {
   font-weight: 100;
 }
 
-footer a {
-  color: #666;
-}
-footer a:hover {
-  color: #444;
-}
-
 /* MISC */
 .clearfix:after {
   display: block;
