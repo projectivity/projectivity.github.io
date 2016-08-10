@@ -32,7 +32,7 @@ article.post
 
 @media only screen and (min-width: 767px)
 {
-	.post h3, .thumbContainer { padding: 0 2%; }
+	.post h3, :not(.postinner) > .thumbContainer { padding: 0 2%; }
 	.thumbContainer
 	{
 		float:left;
