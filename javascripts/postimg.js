@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-	var imageList = document.getElementsByTagName( 'img' );
+	var imageList = document.getElementsByTagName( ':not(a) > img:not([src*="playbutton"])' );
 	var i;
 	for (i = 0; i < imageList.length; i++)
 	{
