@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Believe In Yourself Mural
 youtube: (ENTER YOUTUBE EMBED URL HERE)
