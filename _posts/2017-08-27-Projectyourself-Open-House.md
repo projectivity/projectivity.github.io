@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Project Yourself Open House
 youtube: 'https://www.youtube.com/watch?v=T-wh2X5Ybis'
