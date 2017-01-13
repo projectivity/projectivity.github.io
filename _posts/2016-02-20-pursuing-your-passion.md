@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Projectivity Presents "Pursuing Your Passion"
 youtube: 'https://www.youtube.com/watch?v=AHI05Pbd-qU'
