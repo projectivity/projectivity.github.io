@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Project Dannys Law Fundraiser
 youtube: 'https://www.youtube.com/watch?v=b61FPwbm2hM'
