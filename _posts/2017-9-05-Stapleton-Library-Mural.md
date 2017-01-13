@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Stapleton Library Mural
 youtube: 'https://www.youtube.com/watch?v=-nQndsZLVrM'
