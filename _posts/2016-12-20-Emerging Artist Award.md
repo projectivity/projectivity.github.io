@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Projectivity Group Receives Emerging Artist Award
 image: images/3527_959017834178407_2256418109858553685_n.jpg
