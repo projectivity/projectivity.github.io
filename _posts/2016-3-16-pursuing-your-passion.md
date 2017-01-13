@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Pursuing Your Passion at the Island Voice Youth Summit
 youtube: >-
