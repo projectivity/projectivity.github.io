@@ -1,0 +1,4 @@
+![]({{site.baseurl}}/images/3527_959017834178407_2256418109858553685_n.jpg)![3527_959017834178407_2256418109858553685_n.jpg]({{site.baseurl}}/images/3527_959017834178407_2256418109858553685_n.jpg)
+## A New Post
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
