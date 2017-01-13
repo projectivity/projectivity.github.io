@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Black Heritage Day Parade
 youtube: 'https://www.youtube.com/watch?v=ihHAK_FPIN4'
