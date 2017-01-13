@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Staten Island Fatherhood Awards
 youtube: 'https://www.youtube.com/watch?v=Pc9So8mAors'
