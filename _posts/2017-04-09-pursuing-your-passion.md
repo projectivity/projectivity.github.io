@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Pursuing Your Passion at Stories of Staten
 youtube: 'https://www.youtube.com/watch?v=khR4AQC9oO8'
