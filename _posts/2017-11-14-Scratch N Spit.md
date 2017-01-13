@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Scratch N Spit DJ Workshop / Open Cypher
 youtube: 'https://www.youtube.com/watch?v=RQyv5Q4F9KM'
